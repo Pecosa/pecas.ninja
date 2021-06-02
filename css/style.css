@@ -9,9 +9,8 @@ body{
 
 }
 
-.container{
-
-
+.bg-light{
+    background: #ffffff !important;
 }
 
 .addcolor {
@@ -74,7 +73,7 @@ button {
 
 @media (max-width: 575.98px) {
 .left-side{
-margin-top: 18%;
+margin-top: 5%;
 
 }
     
