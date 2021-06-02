@@ -1,8 +1,13 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-image: url('../images/bg.png'); 
+     background-repeat: no-repeat;
+     background-attachment: fixed; 
+     background-size: 100% 100%;
+ 
 }
 .left-side{
- 
+
 }
 
 .right-side{
@@ -94,6 +99,12 @@ margin-top: 5%;
     
 .p-welcome{
     font-size: 1.3em;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background:none !important;
+
 }
     
 }
