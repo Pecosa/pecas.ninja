@@ -71,6 +71,21 @@ button {
 }
 
 
+.navbar a:hover {
+  color: #9D85F2 !important;// applies to all hovered links on nav
+  }
+
+.navbar a:active{
+  color: #9D85F2 !important;
+  
+  
+}
+
+.nav-item a:active{
+  color: red !important;
+}
+
+
 @media (max-width: 575.98px) {
 .left-side{
 margin-top: 5%;
