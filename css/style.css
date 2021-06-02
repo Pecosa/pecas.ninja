@@ -1,9 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-image: url('../images/bg.png'); 
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
  
 }
 .left-side{
@@ -41,7 +41,7 @@ h1{
 }
  
 .h-100{
-    height: 100vh!important;
+    height: 90vh!important;
 }
 
 
