@@ -14,8 +14,8 @@ body{
 
 }
 
-.navbar.addcolor {
-    background:red !important;   
+.addcolor {
+    background:white !important;   
  }
 
 .p-welcome{
@@ -71,3 +71,10 @@ button {
   cursor: pointer;
 }
 
+
+@media (max-width: 575.98px) {
+.left-side{
+margin-top: 15%;
+
+}
+}
