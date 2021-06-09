@@ -1,10 +1,33 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url('../images/bg.png'); 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+
  
+}
+
+ canvas{
+      position:absolute;
+      left:0;
+      top:0;
+      z-index:-1;
+    }
+
+
+
+
+.card{
+    flex-direction: row;
+}
+
+.pad-0{
+    padding: 0px;
+}
+
+.pad-15{
+    padding-bottom: 2em;
+}
+
+.pad-15-top{
+    padding-top: 4em;
 }
 .left-side{
 
@@ -77,21 +100,22 @@ button {
 
 
 .navbar a:hover {
-  color: #9D85F2 !important;// applies to all hovered links on nav
+  color: #9D85F2 !important;
   }
 
-.navbar a:active{
-  color: #9D85F2 !important;
-  
-  
-}
+
 
 .nav-item a:active{
-  color: red !important;
+  
+}
+
+.active-link{
+    background: #9D85F2;
+    color: #ffffff !important;
 }
 
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
 .left-side{
 margin-top: 5%;
 
@@ -106,5 +130,12 @@ body{
   background:none !important;
 
 }
+    .card{
+    flex-direction: column !important;
+}
+    .mar-15{
+        margin: 1em;
+    }
+
     
 }
