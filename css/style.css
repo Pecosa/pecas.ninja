@@ -18,6 +18,8 @@ body{
     flex-direction: row;
 }
 
+
+
 .pad-0{
     padding: 0px;
 }
@@ -136,6 +138,25 @@ body{
     .mar-15{
         margin: 1em;
     }
+    
+    .card-2{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2em;
 
+}
+
+    .pad-15-top{
+    padding-top:2em;
+        margin: 0px
+            
+}
+    .img-fluid{
+        width: 50%;
+        height: auto;
+    }
+    
+    .center-align{
+        text-align: center
+    }
     
 }
