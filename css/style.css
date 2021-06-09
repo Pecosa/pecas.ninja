@@ -91,7 +91,7 @@ button:hover, button:focus {
 }
 
 button {
-  background: none;
+  background: #fff;
   border: 2px solid;
   font: inherit;
   line-height: 1;
@@ -106,7 +106,15 @@ button {
   }
 
 
+.navbar-toggler-icon{
+    color: #9D85F2 !important; 
+}
 
+
+.navbar-light .navbar-toggler{
+    color: #9D85F2 !important; 
+    border-color: rgba(0,0,0,0);
+}
 .nav-item a:active{
   
 }
