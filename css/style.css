@@ -7,6 +7,10 @@ button{
     margin: 0px !important;
 }
 
+.bg-blue{
+    background-color: #d1c4e9;
+}
+
  canvas{
       position:absolute;
       left:0;
