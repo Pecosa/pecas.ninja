@@ -14,7 +14,11 @@ button{
       z-index:-1;
     }
 
-
+.link{
+    color: #9D85F2 !important;
+    margin-left: 1em;
+    margin-right: 1em;
+}
  .img-fluid{
         width: 80%;
         height: auto;
