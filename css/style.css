@@ -3,6 +3,9 @@ body{
 
  
 }
+button{
+    margin: 0px !important;
+}
 
  canvas{
       position:absolute;
@@ -12,7 +15,10 @@ body{
     }
 
 
-
+ .img-fluid{
+        width: 80%;
+        height: auto;
+    }
 
 .card{
     flex-direction: row;
